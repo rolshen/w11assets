@@ -3,7 +3,11 @@ const path = require("path");
 const fs = require("fs");
 
 const app = express();
+<<<<<<< HEAD
 const port = process.env.port || 8070;
+=======
+var PORT = process.env.PORT || 3000;
+>>>>>>> 4262c2bc36843327c29a6668f030bc990040962f
 const mainDir = path.join(__dirname, "/public");
 
 app.use(express.static('public'));
